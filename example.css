@@ -1,0 +1,84 @@
+.rotate-text
+{
+   display: inline-block;
+   transform: rotate(270deg);
+   color: gray;
+   font-size: 100px;
+     
+}
+
+.rotate-text1{
+   display: inline-block;
+    transform: rotate(270deg);
+    color: gray;
+    align-content: center;
+       
+   
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+   
+}
+
+
+.flex-container1{
+    display: flex;;
+    justify-content: space-around;
+}
+
+.photo{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+.line{
+    margin-left: 20px;
+    width: 3px;
+}
+
+.number{
+    margin-left: 10px; 
+      
+}
+
+.number1{
+   
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;   
+}
+
+.line1{
+    margin-right: 139px;
+    width: 3px;
+    
+   
+}
+
+.number2{
+    margin-left: 50px; 
+    margin-right: 10px;
+      
+}
+
+.number3{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 160px;
+}
+
+
+
+
+
+
+
+
+
+

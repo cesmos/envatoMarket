@@ -1,0 +1,79 @@
+.topimage{
+    width: 100px;
+    height: auto; 
+}
+
+.top-bar {
+    background-color:black; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-success {
+    padding: 5px 10px;
+    background-color: green;  /* Customize the color to match your design */
+    border: none;
+    color: white;
+}
+
+.conteiner {  /* Make sure the class name matches your HTML. It seems like a typo, it should be 'container' */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    background-image: url('./images/b2b.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+   
+}
+
+@media (min-width: 992px) { 
+    .navbar-nav {
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+.navbar-nav .nav-link:hover {
+    color:white; /* Darker shade on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.icon-group img{
+    height: 30px;
+}
+
+.icon-group a {
+    display: inline-block;
+    margin-left: 20px; /* Space between icons */
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;   
+}
+
+.linea {
+    height: 1px; /* Control the thickness of the line */
+    background-color: white;
+    width: 100%;
+}
